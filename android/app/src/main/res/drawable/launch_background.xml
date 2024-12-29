@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/white" />
+
+    <!-- Insert your image with appropriate scaling options -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:tileMode="disabled"
+            android:src="@drawable/habitopia_brand"
+            android:width="200dp"
+            android:height="200dp"
+            android:scaleType="fitCenter" />
+    </item>
+</layer-list>
